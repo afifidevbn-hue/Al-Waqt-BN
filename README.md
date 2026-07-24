@@ -22,18 +22,20 @@ Al-Waqt BN is a lightweight desktop widget for Windows that keeps accurate praye
 
 **Notifications**
 - Windows desktop notifications 10 minutes before and at the start of each prayer
-- Custom notification sound
+- Custom notification sounds — upload your own (mp3/wav/ogg/m4a/aac), choose between them or the built-in default, and delete any you no longer want
 - Per-prayer notification on/off toggle
 
 **Customization**
 - Malay and English language toggle
 - Dark and light theme toggle (with matching sun/moon icon)
+- All preferences (district, language, theme, additional prayer times, notification sound, per-prayer notification toggles, Hijri offset) are remembered between launches
 
 **Widget Behavior**
 - Always-on-top floating widget (toggleable from the tray)
 - Freely draggable and resizable, with position and size remembered between launches
 - Minimizes to the system tray; double-click tray icon to show/hide
 - Runs quietly in the background without cluttering the taskbar
+- Only one instance runs at a time, even if launched more than once
 
 ## Installation
 
@@ -41,9 +43,12 @@ Download the latest installer from the [Releases](../../releases) page — `Al-W
 
 **Auto-start on login (optional):** right-click the app's shortcut → Properties, or drop a shortcut into `shell:startup` (paste that into File Explorer's address bar) so it launches automatically when Windows starts.
 
+**Updating:** quit Al-Waqt BN from the tray ("Quit Al-Waqt BN") before running a newer installer over an existing install, so it isn't still running when the installer tries to replace it.
+
 ## Notes
 
-- **Position** is remembered between launches, saved to a small config file in `%APPDATA%\al-waqt-bn-widget`.
+- Preferences and window position/size are saved to a small config file in `%APPDATA%\al-waqt-bn-widget`.
+- Uploaded notification sounds are stored in `%APPDATA%\al-waqt-bn-widget\sounds`.
 
 ---
 Copyright © 2026 Afifi Hidayat Nordin
