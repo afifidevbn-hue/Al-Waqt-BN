@@ -14,7 +14,12 @@ Al-Waqt BN is a lightweight desktop widget for Windows that keeps accurate praye
 - Live countdown and progress bar to the next prayer
 - Big always-on digital clock
 
-**Location & Calendar**
+**Calendar**
+- Built-in prayer time calendar covering the full year 2026
+- Browse any date via a month-grid date picker, or step day-by-day
+- Each day shows its Hijri date alongside all prayer times
+
+**Location**
 - District selector for all four districts of Brunei (Brunei-Muara, Tutong, Belait, Temburong), with an interactive clickable map
 - Prayer times automatically adjust to the selected district
 - Hijri calendar date display
@@ -22,13 +27,14 @@ Al-Waqt BN is a lightweight desktop widget for Windows that keeps accurate praye
 
 **Notifications**
 - Windows desktop notifications 10 minutes before and at the start of each prayer
-- Custom notification sounds — upload your own (mp3/wav/ogg/m4a/aac), choose between them or the built-in default, and delete any you no longer want
+- Separate, independently configurable sounds for the 10-minutes-before reminder and the exact prayer-time notification
+- Custom notification sounds — upload your own (mp3/wav/ogg/m4a/aac) for either notification type, choose between them or the built-in default, and delete any you no longer want
 - Per-prayer notification on/off toggle
 
 **Customization**
 - Malay and English language toggle
 - Dark and light theme toggle (with matching sun/moon icon)
-- All preferences (district, language, theme, additional prayer times, notification sound, per-prayer notification toggles, Hijri offset) are remembered between launches
+- All preferences (district, language, theme, additional prayer times, notification sounds, per-prayer notification toggles, Hijri offset) are remembered between launches
 
 **Widget Behavior**
 - Always-on-top floating widget (toggleable from the tray)
@@ -44,6 +50,8 @@ Download the latest installer from the [Releases](../../releases) page — `Al-W
 **Auto-start on login (optional):** right-click the app's shortcut → Properties, or drop a shortcut into `shell:startup` (paste that into File Explorer's address bar) so it launches automatically when Windows starts.
 
 **Updating:** quit Al-Waqt BN from the tray ("Quit Al-Waqt BN") before running a newer installer over an existing install, so it isn't still running when the installer tries to replace it.
+
+If you're currently on a build affected by the "stuck on 16 Safar" issue (see Release Notes for v1.0.0-beta.3), updating is strongly recommended — prayer times on that build stop advancing past 31 July 2026.
 
 ## Notes
 
